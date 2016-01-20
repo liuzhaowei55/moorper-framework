@@ -1,9 +1,9 @@
 <?php
 namespace moorper;
 
-use Exception;
 use moorper\Config;
 use moorper\Request;
+use \Exception;
 
 /**
  *
