@@ -1,5 +1,5 @@
 {
-  "name":"moorper/moorper-framework",
+  "name": "moorper/moorper-framework",
   "require": {
     "monolog/monolog": "^1.17",
     "illuminate/database": "^5.1",
@@ -9,11 +9,13 @@
     "vlucas/phpdotenv": "^2.2",
     "nesbot/carbon": "^1.21"
   },
-  "require-dev":{
-  },
+  "require-dev": {},
   "autoload": {
-    "psr-4":{
-        "moorper\\":"moorper/"
+    "files": [
+      "src/helper.php"
+    ],
+    "psr-4": {
+      "moorper\\": "src/"
     }
   }
 }
