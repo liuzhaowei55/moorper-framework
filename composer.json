@@ -1,5 +1,5 @@
 {
-  "name":{"moorper/moorper-framework"},
+  "name":"moorper/moorper-framework",
   "require": {
     "monolog/monolog": "^1.17",
     "illuminate/database": "^5.1",
